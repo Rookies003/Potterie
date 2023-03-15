@@ -1,0 +1,270 @@
+@media screen and (max-width:550px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+        font-family: "Open Sans", sans-serif;
+      }
+      .section1 {
+        width: 100%;
+        height: 40vh;
+        background: url(/assets/277000423-poterie-ludwig-7-1600x900.jpg);
+      
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+        display: flex;
+        align-items: center;
+      }
+      .intro {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        margin-left: 30px;
+        padding: 100px;
+      }
+      h1 {
+        font-size: 40px;
+        color: white;
+      }
+      .intro p {
+        color: white;
+      }
+      .intro button {
+        width: 250px;
+        height: 50px;
+        background: orange;
+        font-weight: 700;
+        border: none;
+      }
+      .intro button {
+          cursor: pointer;
+      }
+      .section2 {
+          width: 100vw;
+          height: 160vh;
+          display: flex;
+          flex-direction: column;
+          
+      }
+      .box1 {
+          width: 100vw;
+          height: 80vh;
+          background-color: #272624;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          text-align: center;
+          padding: 150px;
+          color: white;
+      }
+      h2 {
+          font-size: 30px;
+      }
+      span {
+          border: 3px solid orange;
+          width: 100px;
+      }
+      .box2 {
+          width: 100vw;
+          height: 80vh;
+          background-color:#111111 ;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          text-align: center;
+          color: white;
+          padding: 0px 250px ;
+      }
+      .box2 button {
+          background-color: rgb(255, 166, 0);
+          width: 150px;
+          height: 50px;
+          font-weight: 700;
+          border: none;
+      }
+      .box2 button:hover {
+          cursor: pointer;
+      }
+      .section3 {
+          width: 100vw;
+          height: 110vh;
+          display: flex;
+          flex-direction: column;
+      }
+      .section3 .box1 {color: black;
+          background-color: #eee9e5;
+          padding: 100px;
+          display: flex;
+          align-items: flex-start;
+          text-align: left;
+          width: 100vw;
+          height: 70vh;
+      }
+      .section3 img {
+          width: 100vw;
+      }
+      .section3 .box1 button {
+          width: 250px;
+          height: 50px;
+          background-color: orange;
+          font-weight: 700;
+          border: none;
+      }
+      .section3 .box1 button:hover {
+          cursor: pointer;
+      }
+      .section4 {
+          width: 100vw;
+          height: 120vh;
+          display: flex;
+          flex-direction: column;
+      }
+      .section4 .box1 {
+          align-items: flex-start;
+          text-align: left;
+          width: 100vw;
+          height: 90vh;
+          
+      }
+      .section4 img {
+          width: 100vw;
+      }
+      .section4 .box1 button {
+          width: 250px;
+          height: 50px;
+          background-color: orange;
+          font-weight: 700;
+          border: none;
+      }
+      .section4 .box1 button:hover {
+          cursor: pointer;
+      }
+      .section5 {width: 100vw;
+          height: 220vh;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 50px;
+          background-color: #eee9e5;
+      }
+      
+      .cards {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+      }
+      .cards img {
+          width: 350px;
+      }
+      .cards p {
+          font-size: 30px;
+      }
+      .section5 button {
+          width: 250px;
+          height: 50px;
+          background-color: orange;
+          font-weight: 700;
+          border: none;
+      }
+      .section6 {
+          height: 100vh;
+          width: 100vw;
+          background: url(/assets/s-1245-2-large.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+      }
+      .etudiants {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 100px;
+          gap: 30px;
+          background-color: #eee9e5;
+          width: 400px;
+          height: 700px;
+          position: absolute;
+          left: 60px;
+          top: 100px;
+          
+      }
+      i {
+          font-size: 50px;
+          
+      }
+      .section7 {
+          background-color: #111111;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .box {border: 1px solid black;
+          border-radius: 5px;
+          font-family: 'Roboto', sans-serif;
+          background-color: #eee9e5;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          
+          gap: 20px;
+          width: 700px;
+          height: 700px;
+          padding: 50px;
+         
+      }
+      input {background-color: #111111;
+          
+          width: 100%;
+          height: 50px;
+      }
+      input::placeholder {
+          color: white;
+      }
+      select {background-color: #111111;
+          width: 100%;
+          height: 50px;
+          color: white;
+      }
+      
+      textarea {background-color: #111111;
+          width: 100%;
+      }
+      textarea::placeholder {
+          color: white;
+      }
+      .button button {background-color: white;
+          border: 1px solid black;
+          border-radius: 5px;
+          box-shadow: 5px 5px 10px;
+          width: 300px;
+          height: 50px;
+          font-size: 20px;
+          font-weight: 700;
+          
+      }
+      .button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+    
+}
